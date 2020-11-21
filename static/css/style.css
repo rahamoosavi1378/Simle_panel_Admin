@@ -1,0 +1,193 @@
+/* start: important */
+@font-face {
+    font-family: Vazir;
+    font-weight: normal;
+    src: url("../fonts/Vazir/Vazir.ttf") format("truetype");
+}
+/* end: important */
+
+
+/* start: reset style */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+/* end: reset style */
+
+/* start: Global style */
+body {
+    font-family: Vazir, sans-serif;
+    background-color: #BDD5EA;
+}
+
+/* end: Global style */
+
+/* start: # container */
+#container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* - start: # header */
+#header {
+    width: 100%;
+    background-color: #495867;
+    display: flex;
+    align-items: center;
+}
+
+#header #logo_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    background-color: #FE5F55;
+    color: #F7F7FF;
+    vertical-align: middle;
+}
+
+#header #header_menu {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    align-items: center;
+}
+
+#header #header_menu #select_navBar {
+    padding: 7px 10px;
+    border: 1px solid #BDD5EA;
+    color: #BDD5EA;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#header #header_menu #items {
+}
+
+#header #header_menu #items ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+#header #header_menu #items ul > li {
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    color: #BDD5EA;
+    position: relative;
+}
+
+#header #header_menu #items ul > li > div#popup_profile {
+    position: relative;
+    display: flex;
+}
+
+#header #header_menu #items ul > li > div#popup_profile > #info {
+    display: none;
+}
+
+#header #header_menu #items ul > li > div#popup_profile:hover > #info {
+    display: block;
+    top: 0;
+    left: 0;
+    width: 300px;
+    position: absolute;
+
+}
+
+#header #header_menu #items ul > li > div#popup_profile:hover > #info > #info_account {
+    background-color: #f2f2f2;
+    color: #495867;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-top: 40px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+#header #header_menu #items ul > li img {
+    width: 35px;
+    display: inline-block;
+    background-color: #FE5F55;
+    border-radius: 5px;
+}
+
+
+/* - end: # header */
+
+/* - start: # main */
+
+#main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* -- start: # navBar */
+#navBar {
+    width: 15%;
+    height: 100%;
+    background-color: #577399;
+}
+
+#navBar > ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+#navBar > ul > li > a {
+    text-decoration: none;
+    color: #f2f2f2;
+    display: block;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+#navBar > ul > li > a.active {
+    background-color: #495867;
+}
+
+#navBar > ul > li > a:hover {
+    background-color: #495867;
+    padding-right: 25px;
+    transition: 0.3s;
+}
+
+/* -- end: # navBar */
+/* -- start: # content */
+#content {
+    width: 85%;
+    height: 100%;
+    background-color: #BDD5EA;
+}
+
+/* -- end: # content */
+
+/* - end: # main */
+
+/* end: # container */
+
+
+
+
+
+
+
+
