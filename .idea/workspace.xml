@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10f14622-6e75-40df-83c3-9d1dc49a0cf9" name="Default Changelist" comment="add toggle select navBar">
+    <list default="true" id="10f14622-6e75-40df-83c3-9d1dc49a0cf9" name="Default Changelist" comment="fix bug hidden span">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/index.js" afterDir="false" />
     </list>
@@ -70,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605962784661</updated>
       <workItem from="1605962787782" duration="16064000" />
-      <workItem from="1605979335174" duration="6442000" />
+      <workItem from="1605979335174" duration="7515000" />
     </task>
     <task id="LOCAL-00001" summary="add toggle select navBar">
       <created>1605983011364</created>
@@ -79,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605983011364</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix bug hidden span">
+      <created>1605986005674</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605986005674</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,7 +105,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add toggle select navBar" />
-    <option name="LAST_COMMIT_MESSAGE" value="add toggle select navBar" />
+    <MESSAGE value="fix bug hidden span" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug hidden span" />
   </component>
   <component name="WindowStateProjectService">
     <state x="305" y="76" key="#Inspections" timestamp="1605979840435">
@@ -109,9 +117,9 @@
       <screen x="0" y="30" width="1360" height="738" />
     </state>
     <state x="180" y="43" key="SettingsEditor/0.30.1360.738@0.30.1360.738" timestamp="1605979317326" />
-    <state x="271" y="129" key="Vcs.Push.Dialog.v2" timestamp="1605983019691">
+    <state x="271" y="129" key="Vcs.Push.Dialog.v2" timestamp="1605986012338">
       <screen x="0" y="30" width="1360" height="738" />
     </state>
-    <state x="271" y="129" key="Vcs.Push.Dialog.v2/0.30.1360.738@0.30.1360.738" timestamp="1605983019691" />
+    <state x="271" y="129" key="Vcs.Push.Dialog.v2/0.30.1360.738@0.30.1360.738" timestamp="1605986012338" />
   </component>
 </project>
