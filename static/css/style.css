@@ -46,6 +46,7 @@ body {
     width: 100%;
     background-color: #495867;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -59,6 +60,7 @@ body {
     background-color: #FE5F55;
     color: #F7F7FF;
     vertical-align: middle;
+    transition: width 0.5s;
 }
 
 #header #header_menu {
@@ -67,6 +69,7 @@ body {
     justify-content: space-between;
     padding: 5px 10px;
     align-items: center;
+    transition: width 0.5s;
 }
 
 #header #header_menu #select_navBar {
