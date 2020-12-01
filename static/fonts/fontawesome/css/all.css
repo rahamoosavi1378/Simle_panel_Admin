@@ -1198,7 +1198,9 @@ readers do not read off random characters that represent icons */
   content: "\f1b2"; }
 
 .fa-cubes:before {
-  content: "\f1b3"; }
+  content: "\f1b3";
+  font-size: 1.5rem;
+}
 
 .fa-cut:before {
   content: "\f0c4"; }

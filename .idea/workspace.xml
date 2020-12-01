@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10f14622-6e75-40df-83c3-9d1dc49a0cf9" name="Default Changelist" comment="fix bug hidden span and navBar">
+    <list default="true" id="10f14622-6e75-40df-83c3-9d1dc49a0cf9" name="Default Changelist" comment="fix bug navBar 01">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/fontawesome/css/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/fontawesome/css/all.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +74,11 @@
       <updated>1605962784661</updated>
       <workItem from="1605962787782" duration="16064000" />
       <workItem from="1605979335174" duration="7970000" />
-      <workItem from="1606396371525" duration="904000" />
+      <workItem from="1606396371525" duration="1403000" />
+      <workItem from="1606410947307" duration="762000" />
+      <workItem from="1606419890515" duration="1474000" />
+      <workItem from="1606425906582" duration="8937000" />
+      <workItem from="1606462736835" duration="323000" />
     </task>
     <task id="LOCAL-00001" summary="add toggle select navBar">
       <created>1605983011364</created>
@@ -95,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605987214722</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix bug navBar 01">
+      <created>1606397347331</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606397347331</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,7 +130,8 @@
     <MESSAGE value="add toggle select navBar" />
     <MESSAGE value="fix bug hidden span" />
     <MESSAGE value="fix bug hidden span and navBar" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix bug hidden span and navBar" />
+    <MESSAGE value="fix bug navBar 01" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug navBar 01" />
   </component>
   <component name="WindowStateProjectService">
     <state x="305" y="76" key="#Inspections" timestamp="1605979840435">
@@ -128,9 +142,9 @@
       <screen x="0" y="30" width="1360" height="738" />
     </state>
     <state x="180" y="43" key="SettingsEditor/0.30.1360.738@0.30.1360.738" timestamp="1605979317326" />
-    <state x="271" y="129" key="Vcs.Push.Dialog.v2" timestamp="1605987226368">
+    <state x="271" y="129" key="Vcs.Push.Dialog.v2" timestamp="1606411742134">
       <screen x="0" y="30" width="1360" height="738" />
     </state>
-    <state x="271" y="129" key="Vcs.Push.Dialog.v2/0.30.1360.738@0.30.1360.738" timestamp="1605987226368" />
+    <state x="271" y="129" key="Vcs.Push.Dialog.v2/0.30.1360.738@0.30.1360.738" timestamp="1606411742134" />
   </component>
 </project>

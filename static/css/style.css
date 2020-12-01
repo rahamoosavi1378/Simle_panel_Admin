@@ -4,6 +4,7 @@
     font-weight: normal;
     src: url("../fonts/Vazir/Vazir.ttf") format("truetype");
 }
+
 /* end: important */
 
 
@@ -55,12 +56,17 @@ body {
     justify-content: center;
     align-items: center;
     width: 15%;
+    min-width: 40px;
     height: 100%;
     text-align: center;
     background-color: #FE5F55;
     color: #F7F7FF;
     vertical-align: middle;
     transition: width 0.5s;
+}
+
+#header #logo_text .fa-cubes {
+    font-size: 1.5rem;
 }
 
 #header #header_menu {
@@ -123,7 +129,7 @@ body {
     background-color: #f2f2f2;
     color: #495867;
     border-radius: 0 0 5px 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin-top: 40px;
     width: 100%;
     height: 100%;
@@ -147,24 +153,27 @@ body {
     height: 100%;
     display: flex;
     justify-content: space-between;
+    overflow-y: auto;
 }
 
 /* -- start: # navBar */
 #navBar {
     width: 15%;
+    min-width: 40px;
     height: 100%;
     background-color: #577399;
     transition: width 0.5s;
 }
 
 #navBar > ul {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     list-style-type: none;
-    margin-top: 20px;
 }
 
-#navBar > ul > li > a {
+#navBar > ul li > a {
     text-decoration: none;
     color: #f2f2f2;
     display: block;
@@ -172,14 +181,13 @@ body {
     transition: 0.5s;
 }
 
-#navBar > ul > li > a.active {
+#navBar > ul li > a.active {
     background-color: #495867;
 }
 
-#navBar > ul > li > a:hover {
+#navBar > ul li > a:hover {
     background-color: #495867;
-    padding-right: 25px;
-    transition: 0.3s;
+    transition: background-color 0.2s;
 }
 
 /* -- end: # navBar */
@@ -188,6 +196,10 @@ body {
     width: 85%;
     height: 100%;
     background-color: #BDD5EA;
+    overflow-y: auto;
+    transition: width 0.5s;
+    text-align: justify;
+    padding: 15px;
 }
 
 /* -- end: # content */
